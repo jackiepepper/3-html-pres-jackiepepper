@@ -1,0 +1,73 @@
+P, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* slideshow */
+.myslides{display: none;}
+
+/* full screen images */
+body, html {
+    height: 100%;
+  }
+  
+  .fs {
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-1 {
+      /* The image used */
+    background-image: url("../img/creative\ mess.jpg");
+  }
+
+  .img-2 {
+    /* The image used */
+  background-image: url("../img/no\ music\ no\ life.jpg");
+}
+
+.img-4{
+  /* The image used */
+  background-image: url("../img/assorted-drawing-pencils-1469902.jpg");
+}
+
+.img-5{
+  /* The image used */
+  background-image: url("../img/silver-iphone-x-with-airpods-788946.jpg");
+}
+
+.img-6{
+  /* The image used */
+  background-image: url("../img/mark-adriane-muS2RraYRuQ-unsplash.jpg");
+}
+
+.img-7{
+  /* The image used */
+  background-image: url("../img/photography-of-stars-and-galaxy-1376766.jpg");
+}
+
+/* full video */
+.fs-video {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  }
+
+  audio{
+    display: block;
+    width: 200px;
+    height: 30px;
+  }
+
+  figcaption{
+    font-size: 10px;
+  }
